@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		0CC90A1C223186DC00D9AC1D /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC90A1B223186DC00D9AC1D /* SegmentedControl.swift */; };
 		2B10E2172211FA0700FF0A3A /* Ugur.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B10E2152211FA0700FF0A3A /* Ugur.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B8C0C92221202330090E260 /* ImageSelectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C53221202330090E260 /* ImageSelectionManager.swift */; };
 		2B8C0C93221202330090E260 /* UKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C55221202330090E260 /* UKView.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CC90A1B223186DC00D9AC1D /* SegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
 		2B10E2122211FA0700FF0A3A /* Ugur.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ugur.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B10E2152211FA0700FF0A3A /* Ugur.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ugur.h; sourceTree = "<group>"; };
 		2B415817221C51E500C04672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CC90A1A223186C600D9AC1D /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				0CC90A1B223186DC00D9AC1D /* SegmentedControl.swift */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
 		2B10E2082211FA0700FF0A3A = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +119,7 @@
 				2B9D2C8C2213279900AB74F2 /* FlatColor.swift */,
 				2B8C0C6B221202330090E260 /* KeyboardListening.swift */,
 				2B8C0C5A221202330090E260 /* Extensions */,
+				0CC90A1A223186C600D9AC1D /* Reusable */,
 				2B8C0C52221202330090E260 /* Tools */,
 				2B8C0C6D221202330090E260 /* Validators */,
 				2B8C0C54221202330090E260 /* View */,
@@ -298,6 +309,7 @@
 				2B8C0CCF2212067B0090E260 /* UIStoryboard.swift in Sources */,
 				2B8C0C9E221202330090E260 /* CALayer+Shadow.swift in Sources */,
 				2B8C0CA8221202330090E260 /* KeyboardListening.swift in Sources */,
+				0CC90A1C223186DC00D9AC1D /* SegmentedControl.swift in Sources */,
 				2B8C0CA3221202330090E260 /* UICollectionViewCell.swift in Sources */,
 				2B8C0CCB221206460090E260 /* Parentable.swift in Sources */,
 				2B8C0CA0221202330090E260 /* UIButton.swift in Sources */,

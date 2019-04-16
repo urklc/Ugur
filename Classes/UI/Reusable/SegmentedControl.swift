@@ -51,9 +51,18 @@ final class SegmentedControl: UIControl {
 
     private let buttonsStackView = UIStackView(frame: .zero)
 
-    public init(items: [String]) {
+    init(items: [String]) {
         super.init(frame: .zero)
+        self.items = items
+        setup()
+    }
 
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        setup()
+    }
+
+    private func setup() {
         translatesAutoresizingMaskIntoConstraints = false
 
         layer.masksToBounds = true
@@ -70,12 +79,7 @@ final class SegmentedControl: UIControl {
                                      buttonsStackView.topAnchor.constraint(equalTo: topAnchor),
                                      buttonsStackView.bottomAnchor.constraint(equalTo: bottomAnchor)])
 
-        self.items = items
         updateViews()
-    }
-
-    required convenience init?(coder aDecoder: NSCoder) {
-        self.init(items: [])
     }
 
     override var intrinsicContentSize: CGSize {

@@ -40,6 +40,7 @@
 		2B8C0CCB221206460090E260 /* Parentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0CCA221206460090E260 /* Parentable.swift */; };
 		2B8C0CCF2212067B0090E260 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0CCD2212067B0090E260 /* UIStoryboard.swift */; };
 		2B9D2C8D2213279900AB74F2 /* FlatColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D2C8C2213279900AB74F2 /* FlatColor.swift */; };
+		2BB4C91E22AFDE7F00951478 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4C91D22AFDE7F00951478 /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		2B8C0CCA221206460090E260 /* Parentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parentable.swift; sourceTree = "<group>"; };
 		2B8C0CCD2212067B0090E260 /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
 		2B9D2C8C2213279900AB74F2 /* FlatColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatColor.swift; sourceTree = "<group>"; };
+		2BB4C91D22AFDE7F00951478 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				2B8C0C65221202330090E260 /* UITableView.swift */,
 				2B8C0C67221202330090E260 /* UITableViewCell.swift */,
 				2B8C0C5C221202330090E260 /* UIView.swift */,
+				2BB4C91D22AFDE7F00951478 /* UIViewController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				2B8C0C99221202330090E260 /* UIView.swift in Sources */,
 				2B9D2C8D2213279900AB74F2 /* FlatColor.swift in Sources */,
 				2B8C0C94221202330090E260 /* Reusable.swift in Sources */,
+				2BB4C91E22AFDE7F00951478 /* UIViewController.swift in Sources */,
 				2B8C0C93221202330090E260 /* UKView.swift in Sources */,
 				2B8C0C92221202330090E260 /* ImageSelectionManager.swift in Sources */,
 				2B8C0C96221202330090E260 /* NibLoadable.swift in Sources */,

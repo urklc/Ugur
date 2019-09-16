@@ -23,12 +23,14 @@
 /* Begin PBXBuildFile section */
 		0CC90A1C223186DC00D9AC1D /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC90A1B223186DC00D9AC1D /* SegmentedControl.swift */; };
 		2B10E2172211FA0700FF0A3A /* Ugur.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B10E2152211FA0700FF0A3A /* Ugur.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B61B88B232F56C500606AD4 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B88A232F56C500606AD4 /* UIColor+Additions.swift */; };
+		2B61B88D232F5B4B00606AD4 /* UIView+Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B88C232F5B4B00606AD4 /* UIView+Separator.swift */; };
 		2B8C0C92221202330090E260 /* ImageSelectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C53221202330090E260 /* ImageSelectionManager.swift */; };
 		2B8C0C93221202330090E260 /* UKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C55221202330090E260 /* UKView.swift */; };
 		2B8C0C94221202330090E260 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C56221202330090E260 /* Reusable.swift */; };
 		2B8C0C96221202330090E260 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C58221202330090E260 /* NibLoadable.swift */; };
 		2B8C0C98221202330090E260 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C5B221202330090E260 /* UIImage.swift */; };
-		2B8C0C99221202330090E260 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C5C221202330090E260 /* UIView.swift */; };
+		2B8C0C99221202330090E260 /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C5C221202330090E260 /* UIView+Additions.swift */; };
 		2B8C0C9B221202330090E260 /* UIBarButtonItem+Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C5E221202330090E260 /* UIBarButtonItem+Badge.swift */; };
 		2B8C0C9E221202330090E260 /* CALayer+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C61221202330090E260 /* CALayer+Shadow.swift */; };
 		2B8C0CA0221202330090E260 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C63221202330090E260 /* UIButton.swift */; };
@@ -46,12 +48,14 @@
 		2B10E2122211FA0700FF0A3A /* Ugur.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ugur.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B10E2152211FA0700FF0A3A /* Ugur.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ugur.h; sourceTree = "<group>"; };
 		2B415817221C51E500C04672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		2B61B88A232F56C500606AD4 /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		2B61B88C232F5B4B00606AD4 /* UIView+Separator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Separator.swift"; sourceTree = "<group>"; };
 		2B8C0C53221202330090E260 /* ImageSelectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSelectionManager.swift; sourceTree = "<group>"; };
 		2B8C0C55221202330090E260 /* UKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UKView.swift; sourceTree = "<group>"; };
 		2B8C0C56221202330090E260 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		2B8C0C58221202330090E260 /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 		2B8C0C5B221202330090E260 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
-		2B8C0C5C221202330090E260 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		2B8C0C5C221202330090E260 /* UIView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
 		2B8C0C5E221202330090E260 /* UIBarButtonItem+Badge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Badge.swift"; sourceTree = "<group>"; };
 		2B8C0C61221202330090E260 /* CALayer+Shadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Shadow.swift"; sourceTree = "<group>"; };
 		2B8C0C63221202330090E260 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
@@ -151,10 +155,12 @@
 				2B8C0C63221202330090E260 /* UIButton.swift */,
 				2B8C0C68221202330090E260 /* UICollectionView.swift */,
 				2B8C0C66221202330090E260 /* UICollectionViewCell.swift */,
+				2B61B88A232F56C500606AD4 /* UIColor+Additions.swift */,
 				2B8C0C5B221202330090E260 /* UIImage.swift */,
 				2B8C0CCD2212067B0090E260 /* UIStoryboard.swift */,
 				2B8C0C65221202330090E260 /* UITableView.swift */,
-				2B8C0C5C221202330090E260 /* UIView.swift */,
+				2B8C0C5C221202330090E260 /* UIView+Additions.swift */,
+				2B61B88C232F5B4B00606AD4 /* UIView+Separator.swift */,
 				2BB4C91D22AFDE7F00951478 /* UIViewController.swift */,
 			);
 			path = Extensions;
@@ -296,7 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B8C0C99221202330090E260 /* UIView.swift in Sources */,
+				2B8C0C99221202330090E260 /* UIView+Additions.swift in Sources */,
 				2B9D2C8D2213279900AB74F2 /* FlatColor.swift in Sources */,
 				2B8C0C94221202330090E260 /* Reusable.swift in Sources */,
 				2BB4C91E22AFDE7F00951478 /* UIViewController.swift in Sources */,
@@ -313,6 +319,8 @@
 				2B8C0C9B221202330090E260 /* UIBarButtonItem+Badge.swift in Sources */,
 				2B8C0C98221202330090E260 /* UIImage.swift in Sources */,
 				2B8C0CA2221202330090E260 /* UITableView.swift in Sources */,
+				2B61B88B232F56C500606AD4 /* UIColor+Additions.swift in Sources */,
+				2B61B88D232F5B4B00606AD4 /* UIView+Separator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

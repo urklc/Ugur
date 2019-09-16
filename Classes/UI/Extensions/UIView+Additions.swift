@@ -40,37 +40,3 @@ public extension UIView {
     }
 }
 
-public extension UIView {
-
-    enum SeparatorPosition {
-        case top, bottom, left, right
-    }
-
-    /// Adds separator
-    ///
-    /// - Parameter position: Separator position
-    func uk_addSeparator(at position: SeparatorPosition) {
-        let view = UIView()
-        view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = UIColor.lightGray
-        self.addSubview(view)
-
-        var constraints = [view.leadingAnchor.constraint(equalTo: self.leadingAnchor),
-                          view.trailingAnchor.constraint(equalTo: self.trailingAnchor),
-                          view.heightAnchor.constraint(equalToConstant: 1.0)]
-
-        switch position {
-
-        case .bottom:
-            constraints.append(view.bottomAnchor.constraint(equalTo: self.bottomAnchor))
-        case .top:
-            constraints.append(view.topAnchor.constraint(equalTo: self.topAnchor))
-
-        case .left, .right:
-            print("not supported")
-        }
-
-        NSLayoutConstraint.activate(constraints)
-        self.layoutIfNeeded()
-    }
-}

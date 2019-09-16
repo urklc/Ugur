@@ -27,16 +27,23 @@ public extension UITableView {
     /// Registers given table view cell created from nib
     ///
     /// - Parameter _: Parameter to retrieve concrete type
-    func uk_registerNibCell<T: UITableViewCell & NibLoadable>(_: T.Type) {
+    func uk_registerNibCell<T: UITableViewCell>(_: T.Type) where T: NibLoadable & Reusable {
         let nib = UINib(nibName: T.nibName, bundle: Bundle(for: T.self))
         register(nib, forCellReuseIdentifier: T.defaultReuseIdentifier)
+    }
+
+    /// Registers given table view cell without nib
+    ///
+    /// - Parameter _: Parameter to retrieve concrete type
+    func uk_registerCell<T: UITableViewCell>(_: T.Type) where T: Reusable {
+        register(T.self, forCellReuseIdentifier: T.defaultReuseIdentifier)
     }
 
     /// Dequeues collection view cell with inferred type's reuse identifier
     ///
     /// - Parameter indexPath: Index path of cell
     /// - Returns: Dequeued cell
-    func uk_dequeueReusableCell<T: UITableViewCell>(forIndexPath indexPath: IndexPath) -> T {
+    func uk_dequeueReusableCell<T: UITableViewCell>(forIndexPath indexPath: IndexPath) -> T where T: Reusable {
         return dequeueReusableCell(withIdentifier: T.defaultReuseIdentifier) as! T
     }
 }

@@ -34,7 +34,6 @@
 		2B8C0CA0221202330090E260 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C63221202330090E260 /* UIButton.swift */; };
 		2B8C0CA2221202330090E260 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C65221202330090E260 /* UITableView.swift */; };
 		2B8C0CA3221202330090E260 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C66221202330090E260 /* UICollectionViewCell.swift */; };
-		2B8C0CA4221202330090E260 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C67221202330090E260 /* UITableViewCell.swift */; };
 		2B8C0CA5221202330090E260 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C68221202330090E260 /* UICollectionView.swift */; };
 		2B8C0CA8221202330090E260 /* KeyboardListening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C6B221202330090E260 /* KeyboardListening.swift */; };
 		2B8C0CCF2212067B0090E260 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0CCD2212067B0090E260 /* UIStoryboard.swift */; };
@@ -58,7 +57,6 @@
 		2B8C0C63221202330090E260 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		2B8C0C65221202330090E260 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		2B8C0C66221202330090E260 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
-		2B8C0C67221202330090E260 /* UITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
 		2B8C0C68221202330090E260 /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
 		2B8C0C6B221202330090E260 /* KeyboardListening.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardListening.swift; sourceTree = "<group>"; };
 		2B8C0C6E221202330090E260 /* TextFieldValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldValidator.swift; sourceTree = "<group>"; };
@@ -156,7 +154,6 @@
 				2B8C0C5B221202330090E260 /* UIImage.swift */,
 				2B8C0CCD2212067B0090E260 /* UIStoryboard.swift */,
 				2B8C0C65221202330090E260 /* UITableView.swift */,
-				2B8C0C67221202330090E260 /* UITableViewCell.swift */,
 				2B8C0C5C221202330090E260 /* UIView.swift */,
 				2BB4C91D22AFDE7F00951478 /* UIViewController.swift */,
 			);
@@ -316,7 +313,6 @@
 				2B8C0C9B221202330090E260 /* UIBarButtonItem+Badge.swift in Sources */,
 				2B8C0C98221202330090E260 /* UIImage.swift in Sources */,
 				2B8C0CA2221202330090E260 /* UITableView.swift in Sources */,
-				2B8C0CA4221202330090E260 /* UITableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

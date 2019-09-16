@@ -37,7 +37,6 @@
 		2B8C0CA4221202330090E260 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C67221202330090E260 /* UITableViewCell.swift */; };
 		2B8C0CA5221202330090E260 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C68221202330090E260 /* UICollectionView.swift */; };
 		2B8C0CA8221202330090E260 /* KeyboardListening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C6B221202330090E260 /* KeyboardListening.swift */; };
-		2B8C0CCB221206460090E260 /* Parentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0CCA221206460090E260 /* Parentable.swift */; };
 		2B8C0CCF2212067B0090E260 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0CCD2212067B0090E260 /* UIStoryboard.swift */; };
 		2B9D2C8D2213279900AB74F2 /* FlatColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D2C8C2213279900AB74F2 /* FlatColor.swift */; };
 		2BB4C91E22AFDE7F00951478 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4C91D22AFDE7F00951478 /* UIViewController.swift */; };
@@ -63,7 +62,6 @@
 		2B8C0C68221202330090E260 /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
 		2B8C0C6B221202330090E260 /* KeyboardListening.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardListening.swift; sourceTree = "<group>"; };
 		2B8C0C6E221202330090E260 /* TextFieldValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldValidator.swift; sourceTree = "<group>"; };
-		2B8C0CCA221206460090E260 /* Parentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parentable.swift; sourceTree = "<group>"; };
 		2B8C0CCD2212067B0090E260 /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
 		2B9D2C8C2213279900AB74F2 /* FlatColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatColor.swift; sourceTree = "<group>"; };
 		2BB4C91D22AFDE7F00951478 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
@@ -140,7 +138,6 @@
 		2B8C0C54221202330090E260 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2B8C0CCA221206460090E260 /* Parentable.swift */,
 				2B8C0C55221202330090E260 /* UKView.swift */,
 				2B8C0C56221202330090E260 /* Reusable.swift */,
 				2B8C0C58221202330090E260 /* NibLoadable.swift */,
@@ -315,7 +312,6 @@
 				2B8C0CA8221202330090E260 /* KeyboardListening.swift in Sources */,
 				0CC90A1C223186DC00D9AC1D /* SegmentedControl.swift in Sources */,
 				2B8C0CA3221202330090E260 /* UICollectionViewCell.swift in Sources */,
-				2B8C0CCB221206460090E260 /* Parentable.swift in Sources */,
 				2B8C0CA0221202330090E260 /* UIButton.swift in Sources */,
 				2B8C0C9B221202330090E260 /* UIBarButtonItem+Badge.swift in Sources */,
 				2B8C0C98221202330090E260 /* UIImage.swift in Sources */,

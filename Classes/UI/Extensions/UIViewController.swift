@@ -52,3 +52,36 @@ extension UIViewController {
         return self.presentedViewController!.topMostViewController
     }
 }
+
+extension UIViewController {
+
+    func addChildViewController<T: UIViewController>(_ type: T.Type = T.self) -> T {
+
+        let viewController = type.init()
+        self.addChild(viewController)
+        viewController.didMove(toParent: self)
+        self.view.addSubview(viewController.view)
+
+        viewController.view.translatesAutoresizingMaskIntoConstraints = false
+        return viewController
+    }
+
+    func removeChildViewController(of type: UIViewController.Type) {
+
+        for controller in self.children {
+            if controller.isKind(of: type) {
+                controller.willMove(toParent: nil)
+                controller.removeFromParent()
+
+                if let superview = controller.view.superview {
+                    UIView.transition(with: superview,
+                                      duration: 0.3,
+                                      options: [.curveEaseInOut, .transitionCrossDissolve],
+                                      animations: {
+                                        controller.view.removeFromSuperview()
+                    }, completion: nil)
+                }
+            }
+        }
+    }
+}

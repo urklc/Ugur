@@ -117,6 +117,14 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		2B21028F233B5C260024524C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2B61B88E232F5BD800606AD4 /* LoremSwiftum.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		2B8C0C50221202330090E260 /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,7 +142,6 @@
 		2B8C0C52221202330090E260 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				2B61B88E232F5BD800606AD4 /* LoremSwiftum.swift */,
 				2B8C0C53221202330090E260 /* ImageSelectionManager.swift */,
 			);
 			path = Tools;
@@ -180,6 +187,7 @@
 		2B8C0CC92212043D0090E260 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				2B21028F233B5C260024524C /* Utilities */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";

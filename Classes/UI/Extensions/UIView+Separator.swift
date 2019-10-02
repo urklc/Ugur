@@ -32,13 +32,13 @@ public struct SeparatorPosition: OptionSet {
         self.rawValue = rawValue
     }
 
-    static let top = SeparatorPosition(rawValue: 1 << 0)
-    static let bottom = SeparatorPosition(rawValue: 1 << 1)
-    static let leading = SeparatorPosition(rawValue: 1 << 2)
-    static let trailing = SeparatorPosition(rawValue: 1 << 3)
-    static let all: SeparatorPosition = [.top, .bottom, .leading, .trailing]
-    static let vertical: SeparatorPosition = [.top, .bottom]
-    static let horizontal: SeparatorPosition = [.leading, .trailing]
+    public static let top = SeparatorPosition(rawValue: 1 << 0)
+    public static let bottom = SeparatorPosition(rawValue: 1 << 1)
+    public static let leading = SeparatorPosition(rawValue: 1 << 2)
+    public static let trailing = SeparatorPosition(rawValue: 1 << 3)
+    public static let all: SeparatorPosition = [.top, .bottom, .leading, .trailing]
+    public static let vertical: SeparatorPosition = [.top, .bottom]
+    public static let horizontal: SeparatorPosition = [.leading, .trailing]
 }
 
 public extension UIView {

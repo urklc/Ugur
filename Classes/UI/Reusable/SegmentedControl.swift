@@ -82,7 +82,7 @@ public class SegmentedControl: UIControl {
         updateViews()
     }
 
-    override var intrinsicContentSize: CGSize {
+    public override var intrinsicContentSize: CGSize {
         return CGSize(width: UIView.noIntrinsicMetric, height: 38.0)
     }
 

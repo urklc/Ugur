@@ -24,7 +24,7 @@
 
 import UIKit
 
-final class SegmentedControl: UIControl {
+public class SegmentedControl: UIControl {
 
     public var selectedIndex: Int = 0 {
         didSet {

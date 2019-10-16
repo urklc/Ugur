@@ -11,14 +11,14 @@
 //  Any reproduction of this material must contain this notice.
 //
 
-extension UIApplication {
+public extension UIApplication {
 
     var topMostViewController: UIViewController? {
         return self.keyWindow?.rootViewController?.topMostViewController
     }
 }
 
-extension UIViewController {
+public extension UIViewController {
 
     var topMostViewController: UIViewController {
 
@@ -53,7 +53,7 @@ extension UIViewController {
     }
 }
 
-extension UIViewController {
+public extension UIViewController {
 
     func addChildViewController<T: UIViewController>(_ type: T.Type = T.self) -> T {
 

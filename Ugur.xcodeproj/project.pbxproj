@@ -43,6 +43,7 @@
 		2B9D2C8D2213279900AB74F2 /* FlatColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D2C8C2213279900AB74F2 /* FlatColor.swift */; };
 		2BA29532238D7CA500D066E0 /* TextFieldDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA29531238D7CA500D066E0 /* TextFieldDelegateProxy.swift */; };
 		2BA29534238D7D7100D066E0 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA29533238D7D7100D066E0 /* CheckBoxView.swift */; };
+		2BA29536238D7EF600D066E0 /* AsyncImageContainingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA29535238D7EF600D066E0 /* AsyncImageContainingCell.swift */; };
 		2BB4C91E22AFDE7F00951478 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4C91D22AFDE7F00951478 /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,7 @@
 		2B9D2C8C2213279900AB74F2 /* FlatColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatColor.swift; sourceTree = "<group>"; };
 		2BA29531238D7CA500D066E0 /* TextFieldDelegateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDelegateProxy.swift; sourceTree = "<group>"; };
 		2BA29533238D7D7100D066E0 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		2BA29535238D7EF600D066E0 /* AsyncImageContainingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageContainingCell.swift; sourceTree = "<group>"; };
 		2BB4C91D22AFDE7F00951478 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,6 +149,7 @@
 		2B8C0C52221202330090E260 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				2BA29535238D7EF600D066E0 /* AsyncImageContainingCell.swift */,
 				2B8C0C53221202330090E260 /* ImageSelectionManager.swift */,
 				2BA29531238D7CA500D066E0 /* TextFieldDelegateProxy.swift */,
 			);
@@ -329,6 +332,7 @@
 				2B8C0C96221202330090E260 /* NibLoadable.swift in Sources */,
 				2B8C0CA5221202330090E260 /* UICollectionView.swift in Sources */,
 				2BA29532238D7CA500D066E0 /* TextFieldDelegateProxy.swift in Sources */,
+				2BA29536238D7EF600D066E0 /* AsyncImageContainingCell.swift in Sources */,
 				2B8C0CCF2212067B0090E260 /* UIStoryboard.swift in Sources */,
 				2B8C0C9E221202330090E260 /* CALayer+Shadow.swift in Sources */,
 				2B8C0CA8221202330090E260 /* KeyboardListening.swift in Sources */,

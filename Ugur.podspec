@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Ugur'
-  s.version          = '1.1.0'
+  s.version          = '1.2.0'
   s.summary          = 'Handful tools every project needs.'
 
   s.homepage         = 'https://github.com/urklc/Ugur'

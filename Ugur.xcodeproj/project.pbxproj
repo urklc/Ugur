@@ -42,6 +42,7 @@
 		2B8C0CCF2212067B0090E260 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0CCD2212067B0090E260 /* UIStoryboard.swift */; };
 		2B9D2C8D2213279900AB74F2 /* FlatColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D2C8C2213279900AB74F2 /* FlatColor.swift */; };
 		2BA29532238D7CA500D066E0 /* TextFieldDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA29531238D7CA500D066E0 /* TextFieldDelegateProxy.swift */; };
+		2BA29534238D7D7100D066E0 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA29533238D7D7100D066E0 /* CheckBoxView.swift */; };
 		2BB4C91E22AFDE7F00951478 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4C91D22AFDE7F00951478 /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		2B8C0CCD2212067B0090E260 /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
 		2B9D2C8C2213279900AB74F2 /* FlatColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatColor.swift; sourceTree = "<group>"; };
 		2BA29531238D7CA500D066E0 /* TextFieldDelegateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDelegateProxy.swift; sourceTree = "<group>"; };
+		2BA29533238D7D7100D066E0 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
 		2BB4C91D22AFDE7F00951478 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 		0CC90A1A223186C600D9AC1D /* Reusable */ = {
 			isa = PBXGroup;
 			children = (
+				2BA29533238D7D7100D066E0 /* CheckBoxView.swift */,
 				0CC90A1B223186DC00D9AC1D /* SegmentedControl.swift */,
 			);
 			path = Reusable;
@@ -330,6 +333,7 @@
 				2B8C0C9E221202330090E260 /* CALayer+Shadow.swift in Sources */,
 				2B8C0CA8221202330090E260 /* KeyboardListening.swift in Sources */,
 				0CC90A1C223186DC00D9AC1D /* SegmentedControl.swift in Sources */,
+				2BA29534238D7D7100D066E0 /* CheckBoxView.swift in Sources */,
 				2B8C0CA3221202330090E260 /* UICollectionViewCell.swift in Sources */,
 				2B8C0CA0221202330090E260 /* UIButton.swift in Sources */,
 				2B8C0C9B221202330090E260 /* UIBarButtonItem+Badge.swift in Sources */,

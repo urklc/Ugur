@@ -44,6 +44,6 @@ public extension UITableView {
     /// - Parameter indexPath: Index path of cell
     /// - Returns: Dequeued cell
     func uk_dequeueReusableCell<T: UITableViewCell>(forIndexPath indexPath: IndexPath) -> T where T: Reusable {
-        return dequeueReusableCell(withIdentifier: T.defaultReuseIdentifier) as! T
+        return dequeueReusableCell(withIdentifier: T.defaultReuseIdentifier, for: indexPath) as! T
     }
 }

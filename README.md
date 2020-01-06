@@ -12,6 +12,9 @@ pod 'Ugur', '~> 1.2.0'
 #### LoremSwiftum
   * Helper class to generate Lorem Ipsum strings easily
   
+#### JSONCodable
+* Protocol to support using `Codable`s among the application with bypassing `Self` requirement as a generic constraint
+  
 ### UI
 #### KeyboardListener
   * Automatic handling of the `UIScrollView` *contentInset* when keyboard visibility is changed. Also tap gesture is added to dismiss keyboard

@@ -26,6 +26,7 @@
 		2B61B88B232F56C500606AD4 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B88A232F56C500606AD4 /* UIColor+Additions.swift */; };
 		2B61B88D232F5B4B00606AD4 /* UIView+Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B88C232F5B4B00606AD4 /* UIView+Separator.swift */; };
 		2B61B88F232F5BD800606AD4 /* LoremSwiftum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B88E232F5BD800606AD4 /* LoremSwiftum.swift */; };
+		2B640A6023C3120E00E04516 /* JSONCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B640A5F23C3120E00E04516 /* JSONCodable.swift */; };
 		2B8C0C92221202330090E260 /* ImageSelectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C53221202330090E260 /* ImageSelectionManager.swift */; };
 		2B8C0C93221202330090E260 /* UKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C55221202330090E260 /* UKView.swift */; };
 		2B8C0C94221202330090E260 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C0C56221202330090E260 /* Reusable.swift */; };
@@ -55,6 +56,7 @@
 		2B61B88A232F56C500606AD4 /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
 		2B61B88C232F5B4B00606AD4 /* UIView+Separator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Separator.swift"; sourceTree = "<group>"; };
 		2B61B88E232F5BD800606AD4 /* LoremSwiftum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoremSwiftum.swift; sourceTree = "<group>"; };
+		2B640A5F23C3120E00E04516 /* JSONCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONCodable.swift; sourceTree = "<group>"; };
 		2B8C0C53221202330090E260 /* ImageSelectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSelectionManager.swift; sourceTree = "<group>"; };
 		2B8C0C55221202330090E260 /* UKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UKView.swift; sourceTree = "<group>"; };
 		2B8C0C56221202330090E260 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				2B21028F233B5C260024524C /* Utilities */,
+				2B640A5F23C3120E00E04516 /* JSONCodable.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				2B8C0C93221202330090E260 /* UKView.swift in Sources */,
 				2B8C0C92221202330090E260 /* ImageSelectionManager.swift in Sources */,
 				2B8C0C96221202330090E260 /* NibLoadable.swift in Sources */,
+				2B640A6023C3120E00E04516 /* JSONCodable.swift in Sources */,
 				2B8C0CA5221202330090E260 /* UICollectionView.swift in Sources */,
 				2BA29532238D7CA500D066E0 /* TextFieldDelegateProxy.swift in Sources */,
 				2BA29536238D7EF600D066E0 /* AsyncImageContainingCell.swift in Sources */,

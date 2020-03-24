@@ -24,6 +24,13 @@
 
 public extension UICollectionView {
 
+    /// Registers given collection view cell
+    ///
+    /// - Parameter _: Parameter to retrieve concrete type
+    func uk_registerCell<T: UICollectionViewCell & Reusable>(_: T.Type) {
+        register(T.self, forCellWithReuseIdentifier: T.defaultReuseIdentifier)
+    }
+
     /// Registers given collection view cell created from nib
     ///
     /// - Parameter _: Parameter to retrieve concrete type

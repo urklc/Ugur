@@ -27,7 +27,7 @@ public extension UICollectionView {
     /// Registers given collection view cell
     ///
     /// - Parameter _: Parameter to retrieve concrete type
-    func uk_registerCell<T: UICollectionViewCell & Reusable>(_: T.Type) {
+    func uk_registerCell<T: UICollectionViewCell>(_: T.Type) {
         register(T.self, forCellWithReuseIdentifier: T.defaultReuseIdentifier)
     }
 

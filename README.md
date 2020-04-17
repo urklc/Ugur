@@ -38,4 +38,7 @@ pod 'Ugur', '~> 1.2.0'
 #### Views
   * `UKView` to load custom views from nibs. Can be used from both nibs and code.
   
-  
+### Utility
+#### Localization
+* Initialize a `Localization` instance and use `String` localization functionalities:
+(`uk_localized` and `uk_uppercasedLocalized`) to support custom language selection within the app.

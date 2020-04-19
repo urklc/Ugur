@@ -33,6 +33,7 @@
 		2B3B5A1A244C499600D76C9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3B5A18244C499600D76C9D /* LaunchScreen.storyboard */; };
 		2B3B5A20244C49A800D76C9D /* Ugur.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B10E2122211FA0700FF0A3A /* Ugur.framework */; };
 		2B3B5A21244C49A800D76C9D /* Ugur.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2B10E2122211FA0700FF0A3A /* Ugur.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2B3B5A26244C4B6C00D76C9D /* HasInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3B5A25244C4B6C00D76C9D /* HasInputAccessoryView.swift */; };
 		2B61B88B232F56C500606AD4 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B88A232F56C500606AD4 /* UIColor+Additions.swift */; };
 		2B61B88D232F5B4B00606AD4 /* UIView+Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B88C232F5B4B00606AD4 /* UIView+Separator.swift */; };
 		2B61B88F232F5BD800606AD4 /* LoremSwiftum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B88E232F5BD800606AD4 /* LoremSwiftum.swift */; };
@@ -96,6 +97,8 @@
 		2B3B5A16244C499600D76C9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B3B5A19244C499600D76C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B3B5A1B244C499600D76C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B3B5A25244C4B6C00D76C9D /* HasInputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasInputAccessoryView.swift; sourceTree = "<group>"; };
+		2B3B5A27244C4D1100D76C9D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		2B415817221C51E500C04672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		2B61B88A232F56C500606AD4 /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
 		2B61B88C232F5B4B00606AD4 /* UIView+Separator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Separator.swift"; sourceTree = "<group>"; };
@@ -146,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				2BA29533238D7D7100D066E0 /* CheckBoxView.swift */,
+				2B3B5A25244C4B6C00D76C9D /* HasInputAccessoryView.swift */,
 				0CC90A1B223186DC00D9AC1D /* SegmentedControl.swift */,
 			);
 			path = Reusable;
@@ -173,6 +177,7 @@
 		2B10E2142211FA0700FF0A3A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2B3B5A27244C4D1100D76C9D /* README.md */,
 				2B10E2152211FA0700FF0A3A /* Ugur.h */,
 				2B415817221C51E500C04672 /* Info.plist */,
 				2B8C0CC92212043D0090E260 /* Foundation */,
@@ -447,6 +452,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B8C0C99221202330090E260 /* UIView+Additions.swift in Sources */,
+				2B3B5A26244C4B6C00D76C9D /* HasInputAccessoryView.swift in Sources */,
 				2B9D2C8D2213279900AB74F2 /* FlatColor.swift in Sources */,
 				2B8C0C94221202330090E260 /* Reusable.swift in Sources */,
 				2B61B88F232F5BD800606AD4 /* LoremSwiftum.swift in Sources */,

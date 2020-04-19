@@ -29,6 +29,7 @@ pod 'Ugur', '~> 1.2.0'
   
 #### Reusable Views
   * `CheckBoxView`  
+  * `HasInputAccessoryView`: Call `uk_addInputAccessoryView` to quickly add input accessory view to input fields.
   * `SegmentedControl`
   
 #### Tools

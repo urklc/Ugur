@@ -25,6 +25,14 @@
 		2B10E2172211FA0700FF0A3A /* Ugur.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B10E2152211FA0700FF0A3A /* Ugur.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B233DCA244A04A000EC9A8E /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B233DC9244A04A000EC9A8E /* Localization.swift */; };
 		2B233DCE244A070E00EC9A8E /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B233DCD244A070E00EC9A8E /* String+Additions.swift */; };
+		2B3B5A0E244C499400D76C9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3B5A0D244C499400D76C9D /* AppDelegate.swift */; };
+		2B3B5A10244C499400D76C9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3B5A0F244C499400D76C9D /* SceneDelegate.swift */; };
+		2B3B5A12244C499400D76C9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3B5A11244C499400D76C9D /* ViewController.swift */; };
+		2B3B5A15244C499400D76C9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3B5A13244C499400D76C9D /* Main.storyboard */; };
+		2B3B5A17244C499600D76C9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3B5A16244C499600D76C9D /* Assets.xcassets */; };
+		2B3B5A1A244C499600D76C9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3B5A18244C499600D76C9D /* LaunchScreen.storyboard */; };
+		2B3B5A20244C49A800D76C9D /* Ugur.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B10E2122211FA0700FF0A3A /* Ugur.framework */; };
+		2B3B5A21244C49A800D76C9D /* Ugur.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2B10E2122211FA0700FF0A3A /* Ugur.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2B61B88B232F56C500606AD4 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B88A232F56C500606AD4 /* UIColor+Additions.swift */; };
 		2B61B88D232F5B4B00606AD4 /* UIView+Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B88C232F5B4B00606AD4 /* UIView+Separator.swift */; };
 		2B61B88F232F5BD800606AD4 /* LoremSwiftum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B88E232F5BD800606AD4 /* LoremSwiftum.swift */; };
@@ -50,12 +58,44 @@
 		2BB4C91E22AFDE7F00951478 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4C91D22AFDE7F00951478 /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2B3B5A22244C49A800D76C9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B10E2092211FA0700FF0A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B10E2112211FA0700FF0A3A;
+			remoteInfo = Ugur;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B3B5A24244C49A800D76C9D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2B3B5A21244C49A800D76C9D /* Ugur.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0CC90A1B223186DC00D9AC1D /* SegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
 		2B10E2122211FA0700FF0A3A /* Ugur.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ugur.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B10E2152211FA0700FF0A3A /* Ugur.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ugur.h; sourceTree = "<group>"; };
 		2B233DC9244A04A000EC9A8E /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 		2B233DCD244A070E00EC9A8E /* String+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Additions.swift"; sourceTree = "<group>"; };
+		2B3B5A0B244C499400D76C9D /* UgurDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UgurDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3B5A0D244C499400D76C9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B3B5A0F244C499400D76C9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B3B5A11244C499400D76C9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B3B5A14244C499400D76C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B3B5A16244C499600D76C9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B3B5A19244C499600D76C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B3B5A1B244C499600D76C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B415817221C51E500C04672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		2B61B88A232F56C500606AD4 /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
 		2B61B88C232F5B4B00606AD4 /* UIView+Separator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Separator.swift"; sourceTree = "<group>"; };
@@ -91,6 +131,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2B3B5A08244C499400D76C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3B5A20244C49A800D76C9D /* Ugur.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -107,7 +155,9 @@
 			isa = PBXGroup;
 			children = (
 				2B10E2142211FA0700FF0A3A /* Classes */,
+				2B3B5A0C244C499400D76C9D /* UgurDemo */,
 				2B10E2132211FA0700FF0A3A /* Products */,
+				2B3B5A1F244C49A800D76C9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				2B10E2122211FA0700FF0A3A /* Ugur.framework */,
+				2B3B5A0B244C499400D76C9D /* UgurDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +196,27 @@
 				2B233DC9244A04A000EC9A8E /* Localization.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		2B3B5A0C244C499400D76C9D /* UgurDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2B3B5A0D244C499400D76C9D /* AppDelegate.swift */,
+				2B3B5A0F244C499400D76C9D /* SceneDelegate.swift */,
+				2B3B5A11244C499400D76C9D /* ViewController.swift */,
+				2B3B5A13244C499400D76C9D /* Main.storyboard */,
+				2B3B5A16244C499600D76C9D /* Assets.xcassets */,
+				2B3B5A18244C499600D76C9D /* LaunchScreen.storyboard */,
+				2B3B5A1B244C499600D76C9D /* Info.plist */,
+			);
+			path = UgurDemo;
+			sourceTree = "<group>";
+		};
+		2B3B5A1F244C49A800D76C9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		2B8C0C50221202330090E260 /* UI */ = {
@@ -251,17 +323,40 @@
 			productReference = 2B10E2122211FA0700FF0A3A /* Ugur.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		2B3B5A0A244C499400D76C9D /* UgurDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3B5A1E244C499600D76C9D /* Build configuration list for PBXNativeTarget "UgurDemo" */;
+			buildPhases = (
+				2B3B5A07244C499400D76C9D /* Sources */,
+				2B3B5A08244C499400D76C9D /* Frameworks */,
+				2B3B5A09244C499400D76C9D /* Resources */,
+				2B3B5A24244C49A800D76C9D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B3B5A23244C49A800D76C9D /* PBXTargetDependency */,
+			);
+			name = UgurDemo;
+			productName = UgurDemo;
+			productReference = 2B3B5A0B244C499400D76C9D /* UgurDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		2B10E2092211FA0700FF0A3A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = urklc;
 				TargetAttributes = {
 					2B10E2112211FA0700FF0A3A = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					2B3B5A0A244C499400D76C9D = {
+						CreatedOnToolsVersion = 11.3.1;
 					};
 					2B8C0C4B2211FED00090E260 = {
 						CreatedOnToolsVersion = 10.1;
@@ -274,6 +369,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 2B10E2082211FA0700FF0A3A;
 			productRefGroup = 2B10E2132211FA0700FF0A3A /* Products */;
@@ -282,6 +378,7 @@
 			targets = (
 				2B10E2112211FA0700FF0A3A /* Ugur */,
 				2B8C0C4B2211FED00090E260 /* UgurRelease */,
+				2B3B5A0A244C499400D76C9D /* UgurDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -291,6 +388,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B3B5A09244C499400D76C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3B5A1A244C499600D76C9D /* LaunchScreen.storyboard in Resources */,
+				2B3B5A17244C499600D76C9D /* Assets.xcassets in Resources */,
+				2B3B5A15244C499400D76C9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +475,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2B3B5A07244C499400D76C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3B5A12244C499400D76C9D /* ViewController.swift in Sources */,
+				2B3B5A0E244C499400D76C9D /* AppDelegate.swift in Sources */,
+				2B3B5A10244C499400D76C9D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B3B5A23244C49A800D76C9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B10E2112211FA0700FF0A3A /* Ugur */;
+			targetProxy = 2B3B5A22244C49A800D76C9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B3B5A13244C499400D76C9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B3B5A14244C499400D76C9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B3B5A18244C499600D76C9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B3B5A19244C499600D76C9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2B10E2182211FA0700FF0A3A /* Debug */ = {
@@ -546,6 +690,46 @@
 			};
 			name = Release;
 		};
+		2B3B5A1C244C499600D76C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = UgurDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.urklc.UgurDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2B3B5A1D244C499600D76C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = UgurDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.urklc.UgurDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		2B8C0C4D2211FED00090E260 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -579,6 +763,15 @@
 			buildConfigurations = (
 				2B10E21B2211FA0700FF0A3A /* Debug */,
 				2B10E21C2211FA0700FF0A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3B5A1E244C499600D76C9D /* Build configuration list for PBXNativeTarget "UgurDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3B5A1C244C499600D76C9D /* Debug */,
+				2B3B5A1D244C499600D76C9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

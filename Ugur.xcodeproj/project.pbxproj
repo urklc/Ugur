@@ -38,6 +38,11 @@
 		2B3B5A2B244C4F9D00D76C9D /* UIImage+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3B5A2A244C4F9D00D76C9D /* UIImage+AlamofireImage.swift */; };
 		2B3B5A2F244C515400D76C9D /* UIImageView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3B5A2E244C515400D76C9D /* UIImageView+Additions.swift */; };
 		2B3B5A31244C538000D76C9D /* Codable+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3B5A30244C538000D76C9D /* Codable+Additions.swift */; };
+		2B3B5A34244CA3E200D76C9D /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3B5A33244CA3E200D76C9D /* NetworkController.swift */; };
+		2B3B5A36244CA3EB00D76C9D /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3B5A35244CA3EB00D76C9D /* Request.swift */; };
+		2B3B5A3A244CA3FE00D76C9D /* UgurError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3B5A39244CA3FE00D76C9D /* UgurError.swift */; };
+		2B3B5A3C244CA40800D76C9D /* RequestEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3B5A3B244CA40800D76C9D /* RequestEndpoint.swift */; };
+		2B3B5A3E244CA5C300D76C9D /* QueryItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3B5A3D244CA5C300D76C9D /* QueryItemProvider.swift */; };
 		2B61B88B232F56C500606AD4 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B88A232F56C500606AD4 /* UIColor+Additions.swift */; };
 		2B61B88D232F5B4B00606AD4 /* UIView+Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B88C232F5B4B00606AD4 /* UIView+Separator.swift */; };
 		2B61B88F232F5BD800606AD4 /* LoremSwiftum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B88E232F5BD800606AD4 /* LoremSwiftum.swift */; };
@@ -106,6 +111,11 @@
 		2B3B5A2A244C4F9D00D76C9D /* UIImage+AlamofireImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+AlamofireImage.swift"; sourceTree = "<group>"; };
 		2B3B5A2E244C515400D76C9D /* UIImageView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Additions.swift"; sourceTree = "<group>"; };
 		2B3B5A30244C538000D76C9D /* Codable+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Additions.swift"; sourceTree = "<group>"; };
+		2B3B5A33244CA3E200D76C9D /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		2B3B5A35244CA3EB00D76C9D /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		2B3B5A39244CA3FE00D76C9D /* UgurError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UgurError.swift; sourceTree = "<group>"; };
+		2B3B5A3B244CA40800D76C9D /* RequestEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestEndpoint.swift; sourceTree = "<group>"; };
+		2B3B5A3D244CA5C300D76C9D /* QueryItemProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryItemProvider.swift; sourceTree = "<group>"; };
 		2B415817221C51E500C04672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		2B61B88A232F56C500606AD4 /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
 		2B61B88C232F5B4B00606AD4 /* UIView+Separator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Separator.swift"; sourceTree = "<group>"; };
@@ -188,6 +198,7 @@
 				2B10E2152211FA0700FF0A3A /* Ugur.h */,
 				2B415817221C51E500C04672 /* Info.plist */,
 				2B8C0CC92212043D0090E260 /* Foundation */,
+				2B3B5A32244CA3D200D76C9D /* Network */,
 				2B8C0C50221202330090E260 /* UI */,
 				2B233DC8244A048F00EC9A8E /* Utility */,
 			);
@@ -229,6 +240,18 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B3B5A32244CA3D200D76C9D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2B3B5A33244CA3E200D76C9D /* NetworkController.swift */,
+				2B3B5A3D244CA5C300D76C9D /* QueryItemProvider.swift */,
+				2B3B5A35244CA3EB00D76C9D /* Request.swift */,
+				2B3B5A3B244CA40800D76C9D /* RequestEndpoint.swift */,
+				2B3B5A39244CA3FE00D76C9D /* UgurError.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		2B8C0C50221202330090E260 /* UI */ = {
@@ -472,20 +495,25 @@
 				2B233DCE244A070E00EC9A8E /* String+Additions.swift in Sources */,
 				2B233DCA244A04A000EC9A8E /* Localization.swift in Sources */,
 				2B8C0C92221202330090E260 /* ImageSelectionManager.swift in Sources */,
+				2B3B5A3A244CA3FE00D76C9D /* UgurError.swift in Sources */,
 				2B8C0C96221202330090E260 /* NibLoadable.swift in Sources */,
 				2B8C0CA5221202330090E260 /* UICollectionView.swift in Sources */,
 				2BA29532238D7CA500D066E0 /* TextFieldDelegateProxy.swift in Sources */,
 				2BA29536238D7EF600D066E0 /* AsyncImageContainingCell.swift in Sources */,
 				2B8C0CCF2212067B0090E260 /* UIStoryboard.swift in Sources */,
+				2B3B5A36244CA3EB00D76C9D /* Request.swift in Sources */,
 				2B8C0C9E221202330090E260 /* CALayer+Shadow.swift in Sources */,
 				2B8C0CA8221202330090E260 /* KeyboardListening.swift in Sources */,
 				0CC90A1C223186DC00D9AC1D /* SegmentedControl.swift in Sources */,
+				2B3B5A3C244CA40800D76C9D /* RequestEndpoint.swift in Sources */,
 				2BA29534238D7D7100D066E0 /* CheckBoxView.swift in Sources */,
 				2B3B5A29244C4E1C00D76C9D /* UgurTextView.swift in Sources */,
 				2B8C0CA3221202330090E260 /* UICollectionViewCell.swift in Sources */,
+				2B3B5A34244CA3E200D76C9D /* NetworkController.swift in Sources */,
 				2B8C0CA0221202330090E260 /* UIButton.swift in Sources */,
 				2B8C0C9B221202330090E260 /* UIBarButtonItem+Badge.swift in Sources */,
 				2B8C0C98221202330090E260 /* UIImage.swift in Sources */,
+				2B3B5A3E244CA5C300D76C9D /* QueryItemProvider.swift in Sources */,
 				2B8C0CA2221202330090E260 /* UITableView.swift in Sources */,
 				2B61B88B232F56C500606AD4 /* UIColor+Additions.swift in Sources */,
 				2B3B5A2F244C515400D76C9D /* UIImageView+Additions.swift in Sources */,

@@ -24,22 +24,30 @@ THE SOFTWARE.
 
 import Foundation
 
-protocol JSONEncodable: Encodable { }
+public extension Encodable {
 
-extension JSONEncodable {
+    func toJSONData() -> Data? {
+        return try? JSONEncoder().encode(self)
+    }
 
-    func toJSON() throws -> String? {
-        try String(data: JSONEncoder().encode(self), encoding: .utf8)
+    func toJSONString() throws -> String? {
+        guard let data = toJSONData() else {
+            return nil
+        }
+        return String(data: data, encoding: .utf8)
     }
 }
 
-protocol JSONDecodable: Decodable { }
+public extension Decodable {
 
-extension JSONDecodable {
+    static func from(json data: Data) throws -> Self? {
+        return try? JSONDecoder().decode(Self.self, from: data)
+    }
 
-    static func from(json data: Data) throws -> Self {
-        try JSONDecoder().decode(Self.self, from: data)
+    static func from(json string: String) throws -> Self? {
+        guard let data = string.data(using: .utf8) else {
+            return nil
+        }
+        return try? JSONDecoder().decode(Self.self, from: data)
     }
 }
-
-protocol JSONCodable: JSONEncodable & JSONDecodable { }

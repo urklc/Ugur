@@ -27,6 +27,7 @@ pod 'Ugur', '~> 1.2.0'
   * Separator extension for `UIView`  
   * `UIViewController` helpers to get visible controller  
   * Badge addition for `UIBarButton`
+  * Easy to use async image assignment from URL with caching.
   
 #### Reusable Views
   * `CheckBoxView`  

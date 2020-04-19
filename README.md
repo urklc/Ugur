@@ -23,6 +23,7 @@ pod 'Ugur', '~> 1.2.0'
   * `UICollectionView` and `UITableView` helpers to register/dequeue cells  
   * `UIColor` initializers from hex values  
   * `UIImage` filled with color generator  
+  * `UIImage+AlamofireImage`
   * Separator extension for `UIView`  
   * `UIViewController` helpers to get visible controller  
   * Badge addition for `UIBarButton`

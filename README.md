@@ -31,6 +31,7 @@ pod 'Ugur', '~> 1.2.0'
   * `CheckBoxView`  
   * `HasInputAccessoryView`: Call `uk_addInputAccessoryView` to quickly add input accessory view to input fields.
   * `SegmentedControl`
+  * `UgurTextView`: `UITextView` subclass with placeholder
   
 #### Tools
   * Safe async image downloader for reusable cells: `AsyncImageContainingCell`  

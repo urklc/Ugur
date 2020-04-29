@@ -1,3 +1,5 @@
+[![Build Status](https://app.bitrise.io/app/abe2cdd42d8b6927/status.svg?token=-jooHtRdhvrbZ4lylDynnA)](https://app.bitrise.io/app/abe2cdd42d8b6927)
+
 # Ugur
 Framework includes initial functionality a new project requires
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Ugur'
-  s.version          = '1.4.1'
+  s.version          = '1.4.2'
   s.summary          = 'Handful tools every project needs.'
 
   s.homepage         = 'https://github.com/urklc/Ugur'
@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   s.author           = { 'urklc' => 'ugurkilic@live.com' }
   s.source           = { :git => 'https://github.com/urklc/Ugur.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '11.0'
-  s.swift_versions = ['4.2']
+  s.ios.deployment_target = '15.0'
+  s.swift_versions = ['5.5']
 
   s.source_files = 'Classes/**/*'
 

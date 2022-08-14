@@ -38,11 +38,37 @@ open class NetworkController {
         self.customErrorBlock = customErrorBlock
     }
 
+	public func send(request: Request) async throws {
+		try await withCheckedThrowingContinuation({ (c: CheckedContinuation<Void, Error>)  in
+			send(request: request) { error in
+				if let error = error {
+					c.resume(throwing: error)
+				} else {
+					c.resume()
+				}
+			}
+		})
+	}
+
+	public func send<T: Decodable>(request: Request) async throws -> T {
+		try await withCheckedThrowingContinuation({ continuation  in
+			send(request: request) { (object: T?, error) in
+				if let object = object {
+					continuation.resume(returning: object)
+				} else if let error = error {
+					continuation.resume(throwing: error)
+				}
+			}
+		})
+	}
+
+	@available(*, deprecated, renamed: "send(request:)")
     public func send(request: Request, completion: @escaping (UgurError?) -> Void) {
         let urlRequest = NetworkController.createURLReqest(
             host: host,
             sharedHeaders: sharedHeaders,
             request: request)
+
         let task = URLSession.shared.dataTask(with: urlRequest) { [weak self] (data, response, error) in
             DispatchQueue.main.async {
                 guard let strongSelf = self else {
@@ -60,6 +86,7 @@ open class NetworkController {
         task.resume()
     }
 
+	@available(*, deprecated, renamed: "send(request:)")
     public func send<T: Decodable>(request: Request,
                                    completion: @escaping (T?, UgurError?) -> Void) {
         let urlRequest = NetworkController.createURLReqest(
